@@ -16,8 +16,7 @@
 <body>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
     <script src='js/bootstrap.min.js'></script>
-    <script src="js/index.js"></script>
-    <script type="text/javascript" src="js/modal.js"></script>
+    <script src="js/myScript.js"></script>
 
 
 
@@ -113,22 +112,7 @@
 
         </div><!-- login-panel  --> 
     
-<script type="text/javascript">
-$(document).ready(function(){
 
-    $("a.forgot").click(function(){
-        $("#login-modal").modal("hide");
-        $("#forgetform").modal({show:!0})
-    });
-    
-    $("#signup-modal").modal("hide");
-    $("#forgetform").modal("hide");
-    $("#login-modal").modal("hide");
-    $("#activation-modal").modal("hide");
-    $("#setpassword-modal").modal("hide");
-    
-});
-</script>
 <div id="content">
 <div id="header">
     <div class="row">
