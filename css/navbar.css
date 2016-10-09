@@ -1,0 +1,183 @@
+/* login-panel */
+.login-panel {
+  width: 300px;
+  padding: 15px;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 3px #AFAFAF;
+  margin-top: 30px;
+  position: relative;
+}
+.login-panel .breadcrumb {
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.login-panel .breadcrumb span {
+  font-size: 14px;
+  margin: 0px 1px;
+  background: #999;
+  padding: 6px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+.login-panel span.glyphicon-remove {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: #ddd;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #999;
+  cursor: pointer;
+}
+.login-panel span.glyphicon-remove:hover {
+  background-color: rgba(253, 101, 105, 0.93);
+  color: #fff;
+}
+.login-panel > div {
+  display: none;
+}
+.login-panel > div.active {
+  display: block;
+}
+.login-panel h2 {
+  font-size: 24px;
+  margin: 20px 0 25px 0;
+  color: #504F4F;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.login-panel input[type="text"], .login-panel input[type="password"], .login-panel input[type="email"], .login-panel input[type="submit"], .login-panel button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.login-panel button.btn-submit {
+  background-color: #2BAF55;
+  border: 1px solid #2BAF55;
+  color: #fff;
+}
+.login-panel button.btn-signup {
+  border: 1px solid #007F80;
+  background-color: #007F80;
+  color: #fff;
+}
+.login-panel input[type="text"], .login-panel input[type="password"], .login-panel input[type="email"] {
+  padding: 10px 0px 7px;
+  border-bottom: 1px solid #ccc;
+}
+.login-panel input[type="text"], .login-panel input[type="email"] {
+  margin-bottom: 10px;
+}
+.login-panel input[type="text"]:focus, .login-panel input[type="email"]:focus, .login-panel input[type="password"]:focus {
+  outline: none;
+  border-bottom: 1px solid #2BAF55;
+}
+.login-panel button:focus, .login-panel button:active {
+  outline: none;
+}
+.login-panel input[type="submit"], .login-panel button {
+  border: 1px solid #ABABAB;
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #848484;
+}
+.login-panel input[type="submit"] {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.login-panel button.btn-submit {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.login-panel .pwd-recover {
+  margin-bottom: 0px;
+}
+.login-panel .pwd-recover input[type="email"] {
+  margin-bottom: 0px;
+}
+.login-panel .pwd-recover p {
+  font-size: 12px;
+  color: #6D6C6C;
+  margin-bottom: 5px;
+}
+.login-panel .login-form label {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 8px;
+  color: #545454;
+}
+.login-panel .login-form label input {
+  position: relative;
+  top: 2px;
+}
+.login-panel .login-form .btn-coll {
+  margin-bottom: 15px;
+}
+.login-panel .login-form p#forget-pwd {
+  cursor: pointer;
+  font-size: 12px;
+  color: #676767;
+}
+.login-panel .login-form p#forget-pwd:hover {
+  text-decoration: underline;
+}
+.login-panel .btn-submit, .login-panel .btn-signup {
+  display: inline-block;
+  position: relative;
+}
+.login-panel .btn-submit:hover, .login-panel .btn-submit:focus, .login-panel .btn-submit:active, .login-panel .btn-signup:hover, .login-panel .btn-signup:focus, .login-panel .btn-signup:active {
+  color: white;
+  border: 1px solid #2BAF55;
+}
+.login-panel .btn-submit:before, .login-panel .btn-signup:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #29944B;
+
+}
+.login-panel .btn-signup:hover {
+  border: 1px solid #007F80;
+}
+.login-panel .btn-signup:before {
+  background-color: #026465;
+}
+
+
+
+.modal-backdrop{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:1040;
+  background-color:#000000;
+  opacity:0.6;
+  
+  }
+
+.modal{
+  background:white;
+  position:fixed;
+  top:20%;
+  left:10%;
+  display:none;
+  width:300px;
+  height:400px;
+  padding:0 0 20px 20px;
+  border-radius:10px;
+  overflow:hidden;
+  margin-bottom:10px;
+  box-shadow:0 1px 0 white inset;
+}

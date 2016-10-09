@@ -1,0 +1,242 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+	background-color: #f0f0f0;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 100pt;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+#content{
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 20px; 
+    width: 100%;
+    height: 150px; 
+
+}
+.navbar{
+
+
+}
+
+.span{
+border-style:none;
+
+}
+
+.login-panel
+{
+  
+  width:300px;
+  padding:15px;
+  background-color:#FAFAFA;
+  margin:0 auto;
+  box-shadow: 0px 0px 10px 3px #AFAFAF;
+  margin-top:30px;
+  position:relative;
+  .breadcrumb
+  {
+    text-align:center;
+    background-color:transparent;
+    margin-bottom:0px;
+    margin-top:10px;
+    span
+    {
+      font-size: 14px;
+      margin: 0px 1px;
+      background: #999;
+      padding: 6px;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  
+  span.glyphicon-remove
+  {
+    position:absolute;
+    right: 8px;
+    top: 8px;
+    background-color:#ddd;
+    padding:5px;
+    border:1px solid #fff;
+    border-radius:50%;
+    color: #999;
+    cursor:pointer;
+    -webkit-transition:all 0.5s ;
+  }
+  span.glyphicon-remove:hover
+  {
+    -webkit-transform: scale(1.2);
+    -webkit-transform:rotate(360deg);
+    background-color: rgba(253, 101, 105, 0.93);
+    color: #fff;
+  }
+  > div
+  {
+    display:none;
+  }
+  > div.active
+  {
+    display:block;
+  }
+  
+  h2
+  {
+     font-size: 24px;
+    margin: 20px 0 25px 0;
+    color: #504F4F;
+    font-weight:normal;
+    letter-spacing:1px;
+  }
+  
+  input[type="text"], input[type="password"],    input[type="email"],input[type="submit"], button
+  {
+    width:100%;
+    border:none;
+    background-color:transparent;
+    text-transform:capitalize;
+  }
+  button.btn-submit
+  {
+    background-color:#2BAF55;
+    border: 1px solid #2BAF55;
+    color:#fff;
+  }
+  button.btn-signup
+  {
+    border: 1px solid #007F80;
+    background-color: #007F80;
+    color:#fff;
+  }
+   input[type="text"], input[type="password"], input[type="email"]
+  {
+    padding: 10px 0px 7px;
+
+    border-bottom: 1px solid #ccc;
+  }
+   input[type="text"], input[type="email"]
+  {
+    margin-bottom:10px;
+  }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus
+  {
+    outline: none;
+    border-bottom:1px solid #2BAF55;
+  }
+  button:focus, button:active
+  {
+    outline: none;
+  }
+  input[type="submit"], button
+  {
+    border: 1px solid #ABABAB;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #848484;
+  }
+   input[type="submit"]
+  {
+    margin-bottom:5px;
+    margin-top:15px;
+  }
+  button.btn-submit
+  {
+    margin-bottom:5px;
+    margin-top:15px;
+  }
+  
+   //RECOVER ACCOUNT
+  .pwd-recover
+  {
+    margin-bottom:0px;
+    input[type="email"]
+    {
+      margin-bottom:0px;
+    }
+    p
+    {
+      font-size: 12px;
+      color: #6D6C6C;
+      margin-bottom: 5px;
+    }
+  }
+  
+  //USER LOGIN
+  .login-form  
+  {
+   label 
+    {
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #545454;
+      input
+      {
+        position:relative;
+        top:2px;
+      }
+    }
+    .btn-coll
+    {
+     margin-bottom:15px;
+    }
+    p#forget-pwd
+    {
+      cursor: pointer;
+      font-size: 12px;
+      color: #676767;
+    }
+    p#forget-pwd:hover
+    {
+            text-decoration: underline;
+    }
+  }
+ 
+  //SUBMIT BUTTON HOVER EFFECT
+  .btn-submit, .btn-signup {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color 0.2s;
+}
+  .btn-submit:hover, .btn-submit:focus, .btn-submit:active, .btn-signup:hover, .btn-signup:focus, .btn-signup:active  {
+    color: white;
+     border:1px solid #2BAF55;
+}
+  .btn-submit:hover:before, .btn-signup:hover:before,.btn-submit:focus:before, .btn-signup:focus:before, .btn-submit:active:before, .btn-signup:active:before {
+    transform: scaleX(1);
+    
+}
+.btn-submit:before, .btn-signup:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #29944B;;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    transition-duration: 0.15s;
+      transition-timing-function:  cubic-bezier(0.34, 0.57, 0.82, 0.55);
+}
+  .btn-signup:hover
+  {
+    border:1px solid #007F80;
+  }
+  .btn-signup:before
+  {
+    background-color: #026465;;
+  }
+  
+}
+
+
